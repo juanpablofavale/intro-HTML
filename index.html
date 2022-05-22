@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tablas -->
+    <table style="width: 400px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola Beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                <td>$20.00</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>$30.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>$50.00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!-- ul es lista ordenada-->
+    <ol>
+        <li value="20">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <ol>
+            <li style="list-style-type:lower-alpha;">subElemento 1</li>
+            <li style="list-style-type:lower-alpha;">subElemento 2</li>
+            <li style="list-style-type:lower-alpha;">subElemento 3</li>
+            <li style="list-style-type:lower-alpha;">subElemento 4</li>
+        </ol>
+        </ol>
+
+    <!-- Formularios -->
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Juan" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Perez">
+        <br>
+        <label for="comentario">Comentarios:</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingerese un comentario"></textarea>
+        <br>
+        <input type="submit" />
+        <button type="button">Enviar tipo button</button>
+        <button type="reset">Enviar tipo reset</button>
+        <button type="submit">Enviar tipo submit</button>
+    </form>
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Chanchito feliz esta muy feliz.</p>
+    <p>Chanchito triste esta muy triste.</p>
+    <hr>
+    <h2>Chanchito felipe</h2>
+    <p>Este es el <span style="color:blue">chanchito</span> 
+        felipe <br>
+    probando etiquetas</p>
+    <!-- comentario para el desarrollador -->
+    <br>
+    <a target="_blank" href="http://www.google.com.ar">Ir a Google</a>
+    <br>
+    <img src="https://elegifruta.com.ar/onepage/wp-content/uploads/2017/07/manzana_roja.jpg" width="200" alt="Manzana">
+</body>
+</html>
